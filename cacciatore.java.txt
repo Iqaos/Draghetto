@@ -1,0 +1,6 @@
+public class Cacciatore {
+    
+    public void colpisciDrago(Thread drago) {
+        drago.interrupt();
+    }
+}
